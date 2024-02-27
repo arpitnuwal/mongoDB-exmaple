@@ -18,7 +18,7 @@ const db = async () => {
   // const data = await School.findOne({ name: "test1" });
 
   // const data = await Student.findOneAndUpdate({ name: "GJ" }, { name: "gj" });
-  const data = await Student.findOneAndDelete({ name: "gj" });
+  const data = await Student.findOneAndDelete({ name: "GL" });
   console.log(data);
 };
 
